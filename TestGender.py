@@ -5,10 +5,10 @@ from ultralytics import YOLO
 from PIL import Image
 import matplotlib.pyplot as plt
 
-# Path to your locally saved model (change to your local model path)
-model = YOLO('GenderModel_YOLOv10.pt')
+# Path to Gender model
+model = YOLO('./GenderModel_YOLOv10.pt')
 
-# Load and open the image from a local path
+# Load and open an image 
 img_path = input("Please enter the path to the image: ")
 try:
     image = Image.open(img_path)
