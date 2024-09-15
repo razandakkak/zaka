@@ -11,3 +11,4 @@ You can also see a script of the two models pipeline where the gender model sugg
 
 NOTE:
 it can only be used on Windows
+Please read GUIDANCE to perform a good setup
