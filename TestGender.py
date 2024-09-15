@@ -3,7 +3,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Path to Gender model
-model = YOLO('./conten/zaka/GenderModel_YOLOv10.pt')
+model = YOLO('GenderModel_YOLOv10.pt')
 
 # Load and open an image 
 img_path = input("Please enter the path to the image: ")
