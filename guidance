@@ -7,8 +7,11 @@ run these following commands to get the necessary files
 !mkdir -p SimSwap/insightface_func/models
 !mkdir -p SimSwap/parsing_model/checkpoint
 
-!gdown --id 1PsvCnILPVnfXSVplvbtfmYC4a6Wy2mZx SimSwap/parsing_model/checkpoint
-!gdown --id 1eg5abGyFk-q5PbYiba4LbihwX4rNyEh- SimSwap/insightface_func/models
+!gdown --id 1PsvCnILPVnfXSVplvbtfmYC4a6Wy2mZx 
+!mv ./79999_iter.pth SimSwap/parsing_model/checkpoint
+!gdown --id 1eg5abGyFk-q5PbYiba4LbihwX4rNyEh- 
+!mv ./antelope.zip SimSwap/insightface_func/models
+
 
 !unzip ./SimSwap/insightface_func/models/antelope.zip -d ./SimSwap/insightface_func/models/
 !mkdir -p SimSwap/arcface_model
