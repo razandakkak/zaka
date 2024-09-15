@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Video</title>
+</head>
+<body>
+    <h1>Select a Video for SimSwap</h1>
+    <form action="/run_simswap" method="post">
+        <input type="hidden" name="gender" value="{{ gender }}">
+        <input type="hidden" name="face_image" value="{{ face_image }}">
+        <select name="video">
+            {% for video in videos %}
+                <option value="{{ video }}">{{ video }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Run SimSwap">
+    </form>
+</body>
+</html>
