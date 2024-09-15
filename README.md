@@ -10,5 +10,6 @@ The face swapping model used SimSwap model after fine tuning it.
 You can also see a script of the two models pipeline where the gender model suggests the set of videos related to the user's detected gender. After that the user will choose one video and the SimSwap (our trained model) will start working.
 
 NOTE:
+install requirements.txt
 it can only be used on Windows
 Please read GUIDANCE to perform a good setup
