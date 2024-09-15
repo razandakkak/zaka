@@ -3,7 +3,6 @@ import torch
 import torchvision
 import moviepy
 import os
-!pip install ultralytics
 from ultralytics import YOLO
 from PIL import Image
 import subprocess
