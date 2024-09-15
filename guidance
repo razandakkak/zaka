@@ -1,0 +1,17 @@
+run these following commands to get the necessary files
+
+!git clone https://github.com/neuralchen/SimSwap
+!mkdir -p SimSwap/checkpoints
+!gdown --id 1PXkRiBUYbu1xWpQyDEJvGKeqqUFthJcI -O checkpoints.zip
+!unzip checkpoints.zip -d SimSwap/
+!mkdir -p SimSwap/insightface_func/models
+!mkdir -p SimSwap/parsing_model/checkpoint
+
+!gdown --id 1PsvCnILPVnfXSVplvbtfmYC4a6Wy2mZx SimSwap/parsing_model/checkpoint
+!gdown --id 1eg5abGyFk-q5PbYiba4LbihwX4rNyEh- SimSwap/insightface_func/models
+
+!unzip ./SimSwap/insightface_func/models/antelope.zip -d ./SimSwap/insightface_func/models/
+!mkdir -p SimSwap/arcface_model
+!gdown --id 1TLNdIufzwesDbyr_nVTR7Zrx9oRHLM_N -O SimSwap/arcface_model/arcface_checkpoint.tar
+
+%cd SimSwap
