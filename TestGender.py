@@ -1,6 +1,3 @@
-# pip install ultralytics pillow matplotlib
-# pip install opencv-python
-
 from ultralytics import YOLO
 from PIL import Image
 import matplotlib.pyplot as plt
