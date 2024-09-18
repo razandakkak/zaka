@@ -1,6 +1,7 @@
 run these following commands to get the necessary files
-FOR GOOGLE COLAB USE
+FOR GOOGLE COLAB USE 
 
+clone the repository
 %cd zaka
 !git clone https://github.com/neuralchen/SimSwap #WHEN YOU CLONE IT, NAVIGATE TO FOLDER "util" and open "reserve2original.py", go the the buttom
 and change "n.float" to "float" only.
@@ -24,6 +25,8 @@ and change "n.float" to "float" only.
 !mv ./latest_net_G.pth ./SimSwap/checkpoints/people
 
 FOR WINDOWSBASED USE
+clone the repository 
+create virtual environment (recommended)
 cd zaka
 mkdir SimSwap/checkpoints
 mkdir SimSwap/insightface_func/models
