@@ -97,20 +97,20 @@ def run_simswap_from_selection(user_face_path, selected_video, checkpoint_dir):
         print(f"Error occurred during SimSwap execution: {stderr}")
 
 
-male_videos = "./male"
-female_videos = "./female"
+male_videos = "/content/zaka/male"
+female_videos = "/content/zaka/female"
 
 video_to_actor_map = {
-    "./female/Maguy.mp4": "./female/julia.png",
-    "./female/May ez dine.mp4": "./female/MayEzDine.png",
-    "./female/Nadine Njem.mp4": "./female/Nadine.png",
-    "./female/Samia al jazaeri.mp4": "./female/samia.png",
-    "./female/Shokran.mp4": "./female/Torfa.png",
-    "./male/Ahmad Helmi.mp4": "./male/XLARGE.png",
-    "./male/Joude.mp4": "./male/Day3aDay3a.png",
-    "./male/Moetassem al nahar.mp4": "./male/Moetassem.png",
-    "./male/Taym AL Hassan.mp4": "./male/TaymAlHassan.png",
-    "./male/Mohamad Henedi.mp4": "./male/julia.png"}
+    "/content/zaka/female/Maguy.mp4": "/content/zaka/female/julia.png",
+    "/content/zaka/female/May ez dine.mp4": "/content/zaka/female/MayEzDine.png",
+    "/content/zaka/female/Nadine Njem.mp4": "/content/zaka/female/Nadine.png",
+    "/content/zaka/female/Samia al jazaeri.mp4": "/content/zaka/female/samia.png",
+    "/content/zaka/female/Shokran.mp4": "/content/zaka/female/Torfa.png",
+    "/content/zaka/male/Ahmad Helmi.mp4": "/content/zaka/male/XLARGE.png",
+    "/content/zaka/male/Joude.mp4": "/content/zaka/male/Day3aDay3a.png",
+    "/content/zaka/male/Moetassem al nahar.mp4": "/content/zaka/male/Moetassem.png",
+    "/content/zaka/male/Taym AL Hassan.mp4": "/content/zaka/male/TaymAlHassan.png",
+    "/content/zaka/male/Mohamad Henedi.mp4": "/content/zaka/male/julia.png"}
 
 %cd SimSwap
 gender = DetectGender(user_face_path)
