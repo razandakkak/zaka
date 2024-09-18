@@ -26,7 +26,8 @@ and change "n.float" to "float" only.
 
 FOR WINDOWSBASED USE
 clone the repository 
-create virtual environment (recommended)
+create virtual environment (recommended) 
+!pip install -r requirements.txt
 cd zaka
 mkdir SimSwap/checkpoints
 mkdir SimSwap/insightface_func/models
