@@ -23,6 +23,8 @@ and change "n.float" to "float" only.
 
 !gdown --id 1-NwyIz9prIuRD1HSnLHxlxCSLP_1y5EK
 !mv ./latest_net_G.pth ./SimSwap/checkpoints/people
+Go to "SimSwap/util/reverse2original.py" and convert all 'np.float' to float.
+OR
 !gdown 1wOtiPuNKYxVBQt4kLQ1QNyhyx4oYDAD7 -O "./SimSwap/util/"
 
 FOR WINDOWSBASED USE
@@ -39,15 +41,15 @@ mkdir SimSwap/checkpoints/people
 
 pip install gdown
 
-gdown --id 1PsvCnILPVnfXSVplvbtfmYC4a6Wy2mZx
+gdown 1PsvCnILPVnfXSVplvbtfmYC4a6Wy2mZx
 mv ./79999_iter.pth SimSwap/parsing_model/checkpoint
 
-gdown --id 1eg5abGyFk-q5PbYiba4LbihwX4rNyEh-
+gdown 1eg5abGyFk-q5PbYiba4LbihwX4rNyEh-
 mv ./antelope.zip SimSwap/insightface_func/models
-!unzip ./SimSwap/insightface_func/models/antelope.zip -d ./SimSwap/insightface_func/models/
+unzip ./SimSwap/insightface_func/models/antelope.zip -d ./SimSwap/insightface_func/models/
 
-gdown --id 1TLNdIufzwesDbyr_nVTR7Zrx9oRHLM_N -O SimSwap/arcface_model/arcface_checkpoint.tar
+gdown 1TLNdIufzwesDbyr_nVTR7Zrx9oRHLM_N -O SimSwap/arcface_model/arcface_checkpoint.tar
 
-gdown --id 1-NwyIz9prIuRD1HSnLHxlxCSLP_1y5EK
+gdown 1-NwyIz9prIuRD1HSnLHxlxCSLP_1y5EK
 mv ./latest_net_G.pth ./SimSwap/checkpoints/people
-gdown 1wOtiPuNKYxVBQt4kLQ1QNyhyx4oYDAD7 -O "SimSwap/util/"
+Go to "SimSwap/util/reverse2original.py" and convert all 'np.float' to float.
