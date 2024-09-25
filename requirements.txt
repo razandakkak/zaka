@@ -1,6 +1,10 @@
 torch
 torchvision
 torchaudio
+tts
+ffmpeg-python
+pydub
+#!apt-get install -y ffmpeg
 insightface==0.2.1
 onnxruntime
 onnxruntime-gpu
