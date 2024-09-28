@@ -3,8 +3,7 @@ FOR GOOGLE COLAB USE
 
 clone the repository
 %cd zaka
-!git clone https://github.com/neuralchen/SimSwap #WHEN YOU CLONE IT, NAVIGATE TO FOLDER "util" and open "reserve2original.py", go the the buttom
-and change "n.float" to "float" only.
+!git clone https://github.com/neuralchen/SimSwap 
 !mkdir -p SimSwap/checkpoints
 !mkdir -p SimSwap/insightface_func/models
 !mkdir -p SimSwap/parsing_model/checkpoint
@@ -22,10 +21,11 @@ and change "n.float" to "float" only.
 !mkdir ./SimSwap/checkpoints/people
 
 !gdown --id 1-NwyIz9prIuRD1HSnLHxlxCSLP_1y5EK
-!mv ./latest_net_G.pth ./SimSwap/checkpoints/people
+!mv ./latest_net_G.pth ./SimSwap/checkpoints/people #this is out 390K steps model, it is named as 'latest' so we do not need to specify "which epoch" in
+the command of SimSwap
+
 Go to "SimSwap/util/reverse2original.py" and convert all 'np.float' to float.
-OR
-!gdown 1wOtiPuNKYxVBQt4kLQ1QNyhyx4oYDAD7 -O "./SimSwap/util/"
+
 
 FOR WINDOWSBASED USE
 clone the repository 
