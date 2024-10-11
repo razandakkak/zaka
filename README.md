@@ -1,19 +1,20 @@
-This repository is for the capstone project with zaka.ai academy.
+# Interactive-room
+The aim of this project is to have a fully emerged experience where the user can see themselves in  any movie scene, and not only the face, but also the scenes lines will be spelled by the user's voice! It has a google colab to try it, we attached some movie scenes for each gender.
 
-In this project we used three models, one for gender detection, one for face swapping and one for voice cloning.
-
-The gender model is build with YOLOv10 pre-trained model after fine tuning it.
-You can see a script of testing it here, you just need to specify the image path when it requests it.
+(It is only for use, it cannot be trained)
 
 
-The face swapping model used SimSwap model after fine tuning it.
+# Model
+This project consists of three models:
 
-You can also see a script of the two models pipeline where the gender model suggests the set of videos related to the user's detected gender. After that the user will choose one video and the SimSwap (our trained model) will start working.
+1- The first one is the gender model where it will detect the user's gender and proposes movie scenes based on it.
 
-How to use:
-First clone the repository and install all requirements, then check GUIDANCE to perform a good setup
+2- The second model is the SimSwao model where it will detect the face, swap it and align it on the scene.
 
-We uploaded two files, "pipeline" for google colab interface, "Flask.app" for windowsbased interface.
+3- The voice model will have to clone the user's voice so the words of the actor will be said by the user's voice.
 
-NOTE:
+# Process
+We firstly trained the gender model using Yolov10s pre-trained model, then we tested the SimSwap model but we considered training it for better result and finally we used Coquii TTS model for voice cloning.
 
+# Guidance
+To begin, we have to set up the SimSwap environement, since we already have our gender model. To use it, you have to first Follow the Guidance file and then keep up with the rest.
