@@ -18,3 +18,7 @@ We firstly trained the gender model using Yolov10s pre-trained model, then we te
 
 # Guidance
 To begin, we have to set up the SimSwap environement, since we already have our gender model. To use it, you have to first Follow the Guidance file and then keep up with the rest.
+
+You can see that we have a flaskapp, this is only for Gender and SimSwap model and does not include voice cloning.
+
+We also provided a script to test our Gender model alone. And the Google Colab file is for the interface of the whole project.
