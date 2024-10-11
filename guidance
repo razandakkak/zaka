@@ -2,37 +2,16 @@ run these following commands to get the necessary files
 FOR GOOGLE COLAB USE 
 
 clone the repository
-```
 %cd zaka
-```
-```
 !pip install -r requirements.txt
-```
-```
 !git clone https://github.com/neuralchen/SimSwap 
-```
-```
 !mkdir -p SimSwap/checkpoints
-```
-```
 !mkdir -p SimSwap/insightface_func/models
-```
-```
 !mkdir -p SimSwap/parsing_model/checkpoint
-```
-```
 !gdown --id 1PsvCnILPVnfXSVplvbtfmYC4a6Wy2mZx
-```
-```
 !mv ./79999_iter.pth SimSwap/parsing_model/checkpoint
-```
-```
 !gdown --id 1eg5abGyFk-q5PbYiba4LbihwX4rNyEh-
-```
-```
 !mv ./antelope.zip SimSwap/insightface_func/models
-```
-```
 !unzip ./SimSwap/insightface_func/models/antelope.zip -d ./SimSwap/insightface_func/models/
 ```
 ```
