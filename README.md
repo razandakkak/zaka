@@ -9,7 +9,7 @@ This project consists of three models:
 
 1- The first one is the gender model where it will detect the user's gender and proposes movie scenes based on it.
 
-2- The second model is the SimSwao model where it will detect the face, swap it and align it on the scene.
+2- The second model is the SimSwap model where it will detect the face, swap it and align it on the scene.
 
 3- The voice model will have to clone the user's voice so the words of the actor will be said by the user's voice.
 
