@@ -21,3 +21,17 @@ To begin, we have to set up the SimSwap environement, since we already have our 
 
 - You can see that we have a flaskapp, this is only for Gender and SimSwap model and does not include voice cloning.
 + We also provided a script to test our Gender model alone. And the Google Colab file is for the interface of the whole project.
+
+# Usage
+To start using this project simply do the following
+1. Clone the repository
+2. Follow the *guidance* file to setup the simswap
+3. Use the notebook.
+
+## Note
+The google colab notebook is ready to use, only you should download it and run the cells, no need to do coding, you will have your gradio interface.
+
+This project is not trainable.
+
+# Result
+We provided a result for Arabic scene, there are 4 by 4 arabic scenes for male and female to try them out.
